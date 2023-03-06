@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+  <link rel="stylesheet" type="text/css" th:href="@{/js/main.js}"/>
+  <title>Document</title>
+
+</head>
+<body>
+<div id="login-box">
+  <h2>Login</h2>
+  <form id="login">
+    <div class="user-box">
+      <input type="text" name="userName" required="" id="userName">
+      <label for="userName">UserName</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="password" required="" id="password">
+      <label for="password">Password</label>
+    </div>
+    <button type="button" class="neon-button">Submit</button>
+  </form>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
